@@ -2,6 +2,10 @@
   font-size: 18px;
 }
 
+.smallerText {
+  font-size: 12px;
+}
+
 .redButtonSmall {
   background: #e50914;
   opacity:1.0;
