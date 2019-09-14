@@ -87,7 +87,7 @@ To view your local web server, point your browser to the following URL:
 http://localhost:8000/index.html
 ```
 
-**NOTE: off the box, http-server will not server 'index.html' as the default file. Just add 'index.html' to your URL.**
+**NOTE: off the box, http-server will not serve 'index.html' as the default file. Just add 'index.html' to your URL.**
 
 ## Step 3
 After you have cloned this repository, go to the root directory of the repo and run your prefered web server. For example, my local version of the site is in the following directory:
