@@ -53,24 +53,6 @@ If your version of Python is 2.7, you'll get an output similar to this:
 Python 2.7.10
 ```
 
-Then run the following command:
-
-```
-$ python -m SimpleHTTPServer
-```
-
-If your version is 3.7, then run the following command:
-
-```
-$ python -m http.server
-```
-
-You then can view your local website by going to the following address in your web browser:
-
-```
-http://localhost:8000/
-```
-
 If you don't have python installed and would like to use the built-in server, install the latest version of Python and then run the command for 3.7. You can find the latest version here https://www.python.org/downloads/ (this works for Windows and MacOS).
 
 **Option 2: Node.js Web Server**\
@@ -85,7 +67,15 @@ To install Node.js:
 $ npm install http-server -g
 ```
 
-3. Run the following command after you are in your desired directory:
+3. Run the following command after you are in your desired directory.
+
+Go into the directory where yo downloaded the repository
+
+```
+$ cd /User/jose/Documents/wlu/www
+```
+
+And then run the server:
 
 ```
 $ http-server -p 8000
@@ -104,13 +94,19 @@ After you have cloned this repository, go to the root directory of the repo and 
 $ cd /User/jose/Documents/wlu/www
 ```
 
-I then run the built-in Python web server as follows:
+Then run the following command if you have Python version 2.7:
+
+```
+$ python -m SimpleHTTPServer
+```
+
+If Python version is 3.7, then run the following command:
 
 ```
 $ python -m http.server
 ```
 
-If everything has been set up properly, point your web browser to:
+You then can view your local website by going to the following address in your web browser:
 
 ```
 http://localhost:8000/
